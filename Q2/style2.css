@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+}
+
+h1{
+    font-family: 'Fredoka One', cursive;
+  text-align: center;
+  top: 50%; left: 50%;
+  text-shadow: 0 0 10px #000a;
+  transition: all 0.5s;
+  background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+}
+
+.key{
+    display : inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+.value{
+    display: inline;
+    font-size: 115%;
+}
+
+a,a:hover{
+  transition:0.5s color ease;
+	text-decoration:none;
+	color:#570000;
+	font-size:115%;
+}
+a:hover{
+	color:#d73444;
+}
+
