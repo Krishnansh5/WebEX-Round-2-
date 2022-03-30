@@ -65,6 +65,5 @@ getData('https://swapi.dev/api/planets/1/').then((data) => {
             Li.innerHTML = "<p class='key'>" + String(DataKey) +" : </p>" +"<p class='value'>"+ data[DataKey]+"</p>";
             UL_PlanetData.appendChild(Li);
         }
-
     }
 })
