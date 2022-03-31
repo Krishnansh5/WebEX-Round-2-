@@ -1,5 +1,6 @@
-body{
-    background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+body,html{
+  height: 100%;
+  background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
 }
 
 h1{
@@ -11,6 +12,11 @@ h1{
   background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
 }
 
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 180%;
+}
+
 .key{
     display : inline;
     font-family: 'Courier New', Courier, monospace;
@@ -19,8 +25,9 @@ h1{
 }
 
 .value{
+  font-family: sans-serif;
     display: inline;
-    font-size: 115%;
+    font-size: 110%;
 }
 
 a,a:hover{
