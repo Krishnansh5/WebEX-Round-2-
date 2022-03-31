@@ -1,6 +1,6 @@
 body,html{
   height: 100%;
-  background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+  background-image: linear-gradient(to right, #4ca1af, #2c3e50);
 }
 
 h1{
@@ -33,10 +33,10 @@ h2{
 a,a:hover{
   transition:0.5s color ease;
 	text-decoration:none;
-	color:#570000;
+	color:#740000;
 	font-size:115%;
 }
 a:hover{
-	color:#d73444;
+	color:#ef2135;
 }
 
